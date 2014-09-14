@@ -24,4 +24,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)deleteAllDataBTN:(id)sender {
+}
+- (IBAction)xBTN:(id)sender {
+}
+- (IBAction)impMetSW:(id)sender {
+}
 @end
