@@ -13,18 +13,68 @@
     int runningTotal;
     int set1Total;
     int set2Total;
-    int EndTotal;
+    int set3Total;
+    int set4Total;
+    int set5Total;
+    int set6Total;
+    int set7Total;
+    int set8Total;
+    int set9Total;
+    int set10Total;
+    int set11Total;
+    int set12Total;
+
+
+    int End1Total;
+    int End2Total;
+    int End3Total;
+    int End4Total;
+    int End5Total;
+    int End6Total;
     Float32 average;
     int setNo;
     int endNo;
-    int x;
-    int m;
-    int a;
+    int x1;
+    int m1;
+    int a1;
+    int x2;
+    int m2;
+    int a2;
+    int x3;
+    int m3;
+    int a3;
+    int x4;
+    int m4;
+    int a4;
+    int x5;
+    int m5;
+    int a5;
+    int x6;
+    int m6;
+    int a6;
     int aTotal;
     int xTotal;
     int mTotal;
+    int total1;
+    int total2;
+    int total3;
+    int total4;
+    int total5;
+    int total6;
+    int total7;
+    int total8;
+    int total9;
+    int total10;
     int shot;
+    int arrowShot;
     int arrow[144];
+    NSString *r1;
+    NSString *r2;
+    NSString *r3;
+    NSString *r4;
+    NSString *r5;
+    NSString *r6;
+
 }
 - (IBAction)deleteAllDataBTN:(id)sender;
 
@@ -71,6 +121,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *mLBL;
 
 @property (strong, nonatomic) IBOutlet UILabel *aveLBL;
+
 @property (strong, nonatomic) IBOutlet UILabel *s1LBL;
 @property (strong, nonatomic) IBOutlet UILabel *s2LBL;
 @property (strong, nonatomic) IBOutlet UILabel *s1Tot;
