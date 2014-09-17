@@ -123,117 +123,196 @@ e6x
     //set1
     setNo=1;
     endNo=1;
-    if(shot>0 && shot<8){
+    if(shot>=0 && shot<=7){
+        set1Total=0;
+        End1Total=0;
+        s1LBL.text=@"";
+        s1Tot.text=0;
+        run1Tot=0;
+        xTotal=0;
+        mTotal=0;
+        a1=0;
+        m1=0;
+        x1=0;
+
         r1=[NSString stringWithFormat:@"%d",arrow[1]];
             if(arrow[1]==11){
                 r1=@"X";
+                xTotal=xTotal+1;
+                x1=x1+1;
             }
             else if(arrow[1]==12){
                 r1=@"M";
+                mTotal=mTotal+1;
+                m1=m1+1;
             }
         r2=[NSString stringWithFormat:@"%d",arrow[2]];
         if(arrow[2]==11){
             r1=@"X";
+            xTotal=xTotal+1;
+            x1=x1+1;
         }
         else if(arrow[2]==12){
             r2=@"M";
+            mTotal=mTotal+1;
+            m1=m1+1;
         }
         r3=[NSString stringWithFormat:@"%d",arrow[3]];
         if(arrow[3]==11){
             r3=@"X";
+            xTotal=xTotal+1;
+            x1=x1+1;
         }
         else if(arrow[3]==12){
             r3=@"M";
+            mTotal=mTotal+1;
+            m1=m1+1;
         }
         r4=[NSString stringWithFormat:@"%d",arrow[4]];
         if(arrow[4]==11){
             r4=@"X";
+            xTotal=xTotal+1;
+            x1=x1+1;
         }
         else if(arrow[4]==12){
             r4=@"M";
+            mTotal=mTotal+1;
+            m1=m1+1;
         }
         r5=[NSString stringWithFormat:@"%d",arrow[5]];
         if(arrow[5]==11){
             r5=@"X";
+            xTotal=xTotal+1;
+            x1=x1+1;
         }
         else if(arrow[5]==12){
             r5=@"M";
+            mTotal=mTotal+1;
+            m1=m1+1;
         }
         r6=[NSString stringWithFormat:@"%d",arrow[6]];
         if(arrow[6]==11){
             r6=@"X";
+            xTotal=xTotal+1;
+            x1=x1+1;
         }
         else if(arrow[6]==12){
             r6=@"M";
+            mTotal=mTotal+1;
+            m1=m1+1;
         }
 
         for(int t=1;t<7;t++){
-
-            set1Total=set1Total+arrow[t];
-            End1Total=End1Total+arrow[t];
+                arrowShot=arrow[t];
+                if (arrow[t]==11){arrowShot=10;}
+                if (arrow[t]==12){arrowShot=0;}
+                set1Total=set2Total+arrowShot;
+                End1Total=End1Total+arrowShot;
+                total1=total1+arrow[t];
+                a1=a1+1;
         }
             s1LBL.text=[NSString stringWithFormat:@"%@ %@ %@ %@ %@ %@", r1,r2,r3,r4,r5,r6];
+        a1=shot-(m1+x1)-1;
+        e1a.text=[NSString stringWithFormat:@"%d",a1];
+        e1m.text=[NSString stringWithFormat:@"%d",m1];
+        e1x.text=[NSString stringWithFormat:@"%d",x1];
         s1Tot.text=[NSString stringWithFormat:@"%d",set1Total];
-
+        run1Tot.text=[NSString stringWithFormat:@"%d",total1];
     }
         //set2
         setNo=2;
         endNo=1;
-        if(shot>6 && shot<13){
+        if(shot>=7 && shot<=13){
+
+            set2Total=0;
+            s2LBL.text=@"";
+            s2Tot.text=0;
+
             r1=[NSString stringWithFormat:@"%d",arrow[7]];
             if(arrow[7]==11){
                 r1=@"X";
+                xTotal=xTotal+1;
+                x1=x1+1;
             }
             else if(arrow[7]==12){
                 r1=@"M";
+                mTotal=mTotal+1;
+                m1=m1+1;
             }
             r2=[NSString stringWithFormat:@"%d",arrow[8]];
             if(arrow[8]==11){
                 r1=@"X";
+                xTotal=xTotal+1;
+                x1=x1+1;
             }
             else if(arrow[8]==12){
                 r2=@"M";
+                mTotal=mTotal+1;
+                m1=m1+1;
             }
             r3=[NSString stringWithFormat:@"%d",arrow[9]];
             if(arrow[9]==11){
                 r3=@"X";
+                xTotal=xTotal+1;
+                x1=x1+1;
             }
             else if(arrow[9]==12){
                 r3=@"M";
+                mTotal=mTotal+1;
+                m1=m1+1;
             }
             r4=[NSString stringWithFormat:@"%d",arrow[10]];
             if(arrow[10]==11){
                 r4=@"X";
+                xTotal=xTotal+1;
+                x1=x1+1;
             }
             else if(arrow[10]==12){
                 r4=@"M";
+                mTotal=mTotal+1;
+                m1=m1+1;
             }
             r5=[NSString stringWithFormat:@"%d",arrow[11]];
             if(arrow[11]==11){
                 r5=@"X";
+                xTotal=xTotal+1;
+                x1=x1+1;
             }
             else if(arrow[11]==12){
                 r5=@"M";
+                mTotal=mTotal+1;
+                m1=m1+1;
             }
             r6=[NSString stringWithFormat:@"%d",arrow[12]];
             if(arrow[12]==11){
                 r6=@"X";
+                xTotal=xTotal+1;
+                x1=x1+1;
             }
             else if(arrow[12]==12){
                 r6=@"M";
+                mTotal=mTotal+1;
+                m1=m1+1;
 
             }
             
             for(int t=7;t<13;t++){
                 arrowShot=arrow[t];
-                if (arrow[t]==11 ||arrow[t]==12){arrowShot=0;}
+                if (arrow[t]==11){arrowShot=10;}
+                if (arrow[t]==12){arrowShot=0;}
                 set2Total=set2Total+arrowShot;
                 End1Total=End1Total+arrowShot;
+                total1=total1+arrow[t];
+                a1=a1+1;
             }
-
-        s2LBL.text=[NSString stringWithFormat:@"%@ %@ %@ %@ %@ %@", r1,r2,r3,r4,r5,r6];
+            s2LBL.text=[NSString stringWithFormat:@"%@ %@ %@ %@ %@ %@", r1,r2,r3,r4,r5,r6];
+            a1=shot-(m1+x1);
+            e1a.text=[NSString stringWithFormat:@"%d",a1];
+            e1m.text=[NSString stringWithFormat:@"%d",m1];
+            e1x.text=[NSString stringWithFormat:@"%d",x1];
             s2Tot.text=[NSString stringWithFormat:@"%d",set2Total];
             e1Tot.text=[NSString stringWithFormat:@"%d",set2Total+set1Total];
+            run1Tot.text=[NSString stringWithFormat:@"%d",total1];
     }
 
     xLBL.text  = [NSString stringWithFormat:@"%d", xTotal];
@@ -248,6 +327,9 @@ e6x
     k2LBL.text = [NSString stringWithFormat:@"%d", total2];
     k1LBL.text = [NSString stringWithFormat:@"%d", total1];
     mLBL.text  = [NSString stringWithFormat:@"%d", mTotal];
+
+    average=End1Total/shot;
+    aveLBL.text=[NSString stringWithFormat:@"%f",average];
 }
 
 - (IBAction)xBTN:(id)sender {
