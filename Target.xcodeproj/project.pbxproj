@@ -12,8 +12,14 @@
 		91424D5019C6422F00A4C342 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91424D4F19C6422F00A4C342 /* ViewController.m */; };
 		91424D5319C6422F00A4C342 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91424D5119C6422F00A4C342 /* Main.storyboard */; };
 		91424D5519C6422F00A4C342 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91424D5419C6422F00A4C342 /* Images.xcassets */; };
-		91424D5819C6422F00A4C342 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91424D5619C6422F00A4C342 /* LaunchScreen.xib */; };
 		91424D6419C6422F00A4C342 /* TargetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91424D6319C6422F00A4C342 /* TargetTests.m */; };
+		91D0734919CCD76100A13EF5 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 91D0734819CCD76100A13EF5 /* Settings.bundle */; };
+		91D0734C19CCD7BF00A13EF5 /* emailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D0734B19CCD7BF00A13EF5 /* emailViewController.m */; };
+		91D0734F19CCD7E900A13EF5 /* settingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D0734E19CCD7E900A13EF5 /* settingsViewController.m */; };
+		91D0735219CCD7FC00A13EF5 /* scoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D0735119CCD7FC00A13EF5 /* scoreViewController.m */; };
+		91D0735519CCD85F00A13EF5 /* mySingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D0735419CCD85F00A13EF5 /* mySingleton.m */; };
+		91D0735719CCE06800A13EF5 /* target480sq.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D0735619CCE06800A13EF5 /* target480sq.png */; };
+		91D0735919CCE55100A13EF5 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91D0735819CCE55100A13EF5 /* Launch Screen.xib */; };
 		91F72D2C19C90957001C8943 /* IMG_0068.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 91F72D2919C90957001C8943 /* IMG_0068.JPG */; };
 		91F72D2D19C90957001C8943 /* IMG_0356.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91F72D2A19C90957001C8943 /* IMG_0356.jpg */; };
 		91F72D2E19C90957001C8943 /* IMG_0357.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91F72D2B19C90957001C8943 /* IMG_0357.jpg */; };
@@ -39,10 +45,20 @@
 		91424D4F19C6422F00A4C342 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		91424D5219C6422F00A4C342 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91424D5419C6422F00A4C342 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		91424D5719C6422F00A4C342 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		91424D5D19C6422F00A4C342 /* TargetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TargetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91424D6219C6422F00A4C342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91424D6319C6422F00A4C342 /* TargetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TargetTests.m; sourceTree = "<group>"; };
+		91D0734819CCD76100A13EF5 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		91D0734A19CCD7BF00A13EF5 /* emailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emailViewController.h; sourceTree = "<group>"; };
+		91D0734B19CCD7BF00A13EF5 /* emailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = emailViewController.m; sourceTree = "<group>"; };
+		91D0734D19CCD7E900A13EF5 /* settingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settingsViewController.h; sourceTree = "<group>"; };
+		91D0734E19CCD7E900A13EF5 /* settingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = settingsViewController.m; sourceTree = "<group>"; };
+		91D0735019CCD7FC00A13EF5 /* scoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scoreViewController.h; sourceTree = "<group>"; };
+		91D0735119CCD7FC00A13EF5 /* scoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scoreViewController.m; sourceTree = "<group>"; };
+		91D0735319CCD85F00A13EF5 /* mySingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mySingleton.h; sourceTree = "<group>"; };
+		91D0735419CCD85F00A13EF5 /* mySingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mySingleton.m; sourceTree = "<group>"; };
+		91D0735619CCE06800A13EF5 /* target480sq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = target480sq.png; sourceTree = "<group>"; };
+		91D0735819CCE55100A13EF5 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		91F72D2919C90957001C8943 /* IMG_0068.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0068.JPG; sourceTree = "<group>"; };
 		91F72D2A19C90957001C8943 /* IMG_0356.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0356.jpg; sourceTree = "<group>"; };
 		91F72D2B19C90957001C8943 /* IMG_0357.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0357.jpg; sourceTree = "<group>"; };
@@ -69,6 +85,7 @@
 		91424D3B19C6422F00A4C342 = {
 			isa = PBXGroup;
 			children = (
+				91D0735819CCE55100A13EF5 /* Launch Screen.xib */,
 				91424D4619C6422F00A4C342 /* Target */,
 				91424D6019C6422F00A4C342 /* TargetTests */,
 				91424D4519C6422F00A4C342 /* Products */,
@@ -87,17 +104,22 @@
 		91424D4619C6422F00A4C342 /* Target */ = {
 			isa = PBXGroup;
 			children = (
+				91D0735319CCD85F00A13EF5 /* mySingleton.h */,
+				91D0735419CCD85F00A13EF5 /* mySingleton.m */,
 				91424D4B19C6422F00A4C342 /* AppDelegate.h */,
 				91424D4C19C6422F00A4C342 /* AppDelegate.m */,
 				91424D4E19C6422F00A4C342 /* ViewController.h */,
 				91424D4F19C6422F00A4C342 /* ViewController.m */,
-				91F72D2919C90957001C8943 /* IMG_0068.JPG */,
-				91F72D2A19C90957001C8943 /* IMG_0356.jpg */,
-				91F72D2B19C90957001C8943 /* IMG_0357.jpg */,
+				91D0734A19CCD7BF00A13EF5 /* emailViewController.h */,
+				91D0734B19CCD7BF00A13EF5 /* emailViewController.m */,
+				91D0734D19CCD7E900A13EF5 /* settingsViewController.h */,
+				91D0734E19CCD7E900A13EF5 /* settingsViewController.m */,
+				91D0735019CCD7FC00A13EF5 /* scoreViewController.h */,
+				91D0735119CCD7FC00A13EF5 /* scoreViewController.m */,
 				91424D5119C6422F00A4C342 /* Main.storyboard */,
 				91424D5419C6422F00A4C342 /* Images.xcassets */,
-				91424D5619C6422F00A4C342 /* LaunchScreen.xib */,
 				91424D4719C6422F00A4C342 /* Supporting Files */,
+				91D0734819CCD76100A13EF5 /* Settings.bundle */,
 			);
 			path = Target;
 			sourceTree = "<group>";
@@ -105,6 +127,10 @@
 		91424D4719C6422F00A4C342 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				91D0735619CCE06800A13EF5 /* target480sq.png */,
+				91F72D2919C90957001C8943 /* IMG_0068.JPG */,
+				91F72D2A19C90957001C8943 /* IMG_0356.jpg */,
+				91F72D2B19C90957001C8943 /* IMG_0357.jpg */,
 				91424D4819C6422F00A4C342 /* Info.plist */,
 				91424D4919C6422F00A4C342 /* main.m */,
 			);
@@ -210,11 +236,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				91424D5319C6422F00A4C342 /* Main.storyboard in Resources */,
+				91D0735719CCE06800A13EF5 /* target480sq.png in Resources */,
 				91F72D2D19C90957001C8943 /* IMG_0356.jpg in Resources */,
 				91F72D2C19C90957001C8943 /* IMG_0068.JPG in Resources */,
-				91424D5819C6422F00A4C342 /* LaunchScreen.xib in Resources */,
 				91F72D2E19C90957001C8943 /* IMG_0357.jpg in Resources */,
+				91D0735919CCE55100A13EF5 /* Launch Screen.xib in Resources */,
 				91424D5519C6422F00A4C342 /* Images.xcassets in Resources */,
+				91D0734919CCD76100A13EF5 /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,9 +260,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91D0734F19CCD7E900A13EF5 /* settingsViewController.m in Sources */,
 				91424D5019C6422F00A4C342 /* ViewController.m in Sources */,
 				91424D4D19C6422F00A4C342 /* AppDelegate.m in Sources */,
+				91D0735219CCD7FC00A13EF5 /* scoreViewController.m in Sources */,
 				91424D4A19C6422F00A4C342 /* main.m in Sources */,
+				91D0734C19CCD7BF00A13EF5 /* emailViewController.m in Sources */,
+				91D0735519CCD85F00A13EF5 /* mySingleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,14 +295,6 @@
 				91424D5219C6422F00A4C342 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		91424D5619C6422F00A4C342 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				91424D5719C6422F00A4C342 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -310,7 +334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -346,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -360,8 +384,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Target/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -371,8 +397,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Target/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
