@@ -50,7 +50,7 @@ emaillbl;
 
 /*Create a new file*/
 -(void)WriteToStringFile:(NSMutableString *)textToWrite{
-    mySingleton *singleton = [mySingleton sharedSingleton];
+    //mySingleton *singleton = [mySingleton sharedSingleton];
     //int trynumber = 0;
     filepath = [[NSString alloc] init];
     NSError *err;
@@ -183,7 +183,7 @@ setTranslatesAutoresizingMaskIntoConstraints:NO;
 
     // NSLog(@"Starting Stats");
 
-    NSString *myNumbStr = [[NSString alloc] init];
+    //NSString *myNumbStr = [[NSString alloc] init];
 
     //set counter to cards for singleton global var
     singleton.counter = 1;

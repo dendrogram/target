@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+#define kEmail      @"emailAddress"
+#define kArcher     @"archerName"
+#define kVersion    @"version"
+
 @interface ViewController : UIViewController
 {
     int endsPerMatch;
@@ -46,11 +50,8 @@
     int arrow[144];
     NSString *r[6];
 }
-- (IBAction)deleteAllDataBTN:(id)sender;
 
 @property (strong, nonatomic) IBOutlet UISwitch *impMetSW;
-
-- (IBAction)impMetSW:(id)sender;
 
 @property (strong, nonatomic) IBOutlet UIButton *xBTN;
 @property (strong, nonatomic) IBOutlet UIButton *k10BTN;
@@ -64,6 +65,9 @@
 @property (strong, nonatomic) IBOutlet UIButton *k2BTN;
 @property (strong, nonatomic) IBOutlet UIButton *k1BTN;
 @property (strong, nonatomic) IBOutlet UIButton *mBTN;
+
+- (IBAction)deleteAllDataBTN:(id)sender;
+- (IBAction)impMetSW:(id)sender;
 
 - (IBAction)xBTN:(id)sender;
 - (IBAction)x10BTN:(id)sender;

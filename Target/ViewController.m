@@ -32,12 +32,37 @@ k8BTN,
 k9BTN,
 impMetSW;
 
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 
     shot=1;
+
+    //read the settings bundle plist and put the data in the singleton.
+    NSURL *defaultPrefsFile = [[NSBundle mainBundle] URLForResource:@"Root" withExtension:@"plist"];
+    NSDictionary *defaultPrefs = [NSDictionary dictionaryWithContentsOfURL:defaultPrefsFile];
+
+    [[NSUserDefaults standardUserDefaults]registerDefaults:defaultPrefs];
+
+    //for reading
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [[NSUserDefaults standardUserDefaults]synchronize];
+
+    //test what is in there now, read the values
+    NSLog(@"Archer   :%@", [defaults objectForKey:kArcher]);
+    NSLog(@"email    :%@", [defaults objectForKey:kEmail]);
+
+
+    //write a new plist value to test output
+    // saving archer
+    //[defaults setObject:@"Jon Howell" forKey:@"archerName"];
+    // saving email
+    //[defaults setObject:@"j.a.howell@mmu.ac.uk" forKey:@"emailAddress"];
+    //[[NSUserDefaults standardUserDefaults]synchronize];
+
+    //NSLog(@"Archer   :%@", [defaults objectForKey:kArcher]);
+    //NSLog(@"email    :%@", [defaults objectForKey:kEmail]);
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -52,6 +77,48 @@ impMetSW;
         arrow[count]=0;
     }
 }
+
+- (IBAction)impMetSW:(id)sender{
+
+}
+
+- (IBAction)xBTN:(id)sender{
+
+}
+- (IBAction)x10BTN:(id)sender{
+
+}
+- (IBAction)x9BTN:(id)sender{
+
+}
+- (IBAction)x8BTN:(id)sender{
+
+}
+- (IBAction)x7BTN:(id)sender{
+
+}
+- (IBAction)x6BTN:(id)sender{
+
+}
+- (IBAction)x5BTN:(id)sender{
+
+}
+- (IBAction)x4BTN:(id)sender{
+
+}
+- (IBAction)x3BTN:(id)sender{
+
+}
+- (IBAction)x2BTN:(id)sender{
+
+}
+- (IBAction)x1BTN:(id)sender{
+
+}
+- (IBAction)mBTN:(id)sender{
+    
+}
+
 
 -(void)updateResults{
     //set1

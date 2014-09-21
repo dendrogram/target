@@ -24,7 +24,7 @@ testDate,
 testTime,
 archerName,
 email,
-labLocation,
+Location,
 addedToResults,
 dataCompleted,
 resultStrings,
@@ -59,7 +59,7 @@ versionNumber
         addedToResults     = NO;
         dataCompleted      = NO;
 
-        labLocation        = @"Alsager Cranberry Road Field";
+        Location           = @"Alsager Cranberry Road Field";
 
         archerName         = @"Rachel Howell";
         testDate           = @"";
@@ -67,7 +67,7 @@ versionNumber
         resultStrings      = @"";
 
         resultStrings      = @"";
-        versionNumber      = @"";
+        versionNumber      = @"1.0.0";
 
     }
     return self;

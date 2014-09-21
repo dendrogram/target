@@ -8,7 +8,7 @@
         <!--Scoring-->
         <scene sceneID="Wvm-0j-L7q">
             <objects>
-                <viewController id="xKh-jZ-3R3" sceneMemberID="viewController">
+                <viewController id="xKh-jZ-3R3" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cqh-jC-HTI"/>
                         <viewControllerLayoutGuide type="bottom" id="CT8-Kf-kPq"/>
@@ -55,7 +55,7 @@
         <!--Settings-->
         <scene sceneID="VWZ-XK-gNg">
             <objects>
-                <viewController title="Settings" id="nO0-7L-U1d" sceneMemberID="viewController">
+                <viewController title="Settings" id="nO0-7L-U1d" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xqP-hS-guf"/>
                         <viewControllerLayoutGuide type="bottom" id="l9c-Bd-iN1"/>
@@ -123,7 +123,7 @@
         <!--Details-->
         <scene sceneID="RQd-8C-eFt">
             <objects>
-                <viewController title="Details" id="3bX-3I-siA" sceneMemberID="viewController">
+                <viewController title="Details" id="3bX-3I-siA" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Av8-QR-Sjv"/>
                         <viewControllerLayoutGuide type="bottom" id="hdT-GZ-KFL"/>
@@ -170,7 +170,7 @@
         <!--Email-->
         <scene sceneID="now-XL-1B0">
             <objects>
-                <viewController title="Email" id="F33-eN-FOp" sceneMemberID="viewController">
+                <viewController title="Email" id="F33-eN-FOp" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="inX-0q-llh"/>
                         <viewControllerLayoutGuide type="bottom" id="ty1-4o-Zd1"/>

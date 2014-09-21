@@ -23,7 +23,7 @@
     NSString * versionNumber;
     NSString * email;
 
-    NSString * labLocation;
+    NSString * Location;
 
     long double subWt;
 }
@@ -34,12 +34,12 @@
 @property (nonatomic, retain) NSMutableArray * cardReactionTimeResult;
 
 //doubles
-@property (nonatomic) long double subWt;
+//@property (nonatomic) long double subWt;
 
 //Strings
 @property (nonatomic, retain) NSString * email;
 
-@property (nonatomic, retain) NSString * labLocation;
+@property (nonatomic, retain) NSString * Location;
 
 @property (nonatomic, retain) NSString * resultStrings;
 @property (nonatomic, retain) NSString * archerName;

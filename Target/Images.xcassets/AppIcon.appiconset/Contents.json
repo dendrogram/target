@@ -3,26 +3,32 @@
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "Custom Size_58-1.png",
-      "scale" : "2x"
+      "filename" : "Custom Size_29.png",
+      "scale" : "1x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "Custom Size_87.png",
-      "scale" : "3x"
-    },
-    {
-      "size" : "40x40",
-      "idiom" : "iphone",
-      "filename" : "Custom Size_80-1.png",
+      "filename" : "Custom Size_58.png",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "Custom Size_120-1.png",
-      "scale" : "3x"
+      "filename" : "Custom Size_80.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "57x57",
+      "idiom" : "iphone",
+      "filename" : "Custom Size_57.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "57x57",
+      "idiom" : "iphone",
+      "filename" : "Custom Size_114.png",
+      "scale" : "2x"
     },
     {
       "size" : "60x60",
@@ -39,13 +45,13 @@
     {
       "size" : "29x29",
       "idiom" : "ipad",
-      "filename" : "Custom Size_29.png",
+      "filename" : "Custom Size_29-1.png",
       "scale" : "1x"
     },
     {
       "size" : "29x29",
       "idiom" : "ipad",
-      "filename" : "Custom Size_58.png",
+      "filename" : "Custom Size_58-1.png",
       "scale" : "2x"
     },
     {
@@ -57,7 +63,31 @@
     {
       "size" : "40x40",
       "idiom" : "ipad",
-      "filename" : "Custom Size_80.png",
+      "filename" : "Custom Size_80-1.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "50x50",
+      "idiom" : "ipad",
+      "filename" : "Custom Size_50.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "50x50",
+      "idiom" : "ipad",
+      "filename" : "Custom Size_100.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "72x72",
+      "idiom" : "ipad",
+      "filename" : "Custom Size_72.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "72x72",
+      "idiom" : "ipad",
+      "filename" : "Custom Size_144.png",
       "scale" : "2x"
     },
     {

@@ -45,7 +45,7 @@ setTranslatesAutoresizingMaskIntoConstraints:NO;
 
 -(void)viewDidAppear:(BOOL)animated{
     // set up link to singleton, load on open
-    mySingleton *singleton      = [mySingleton sharedSingleton];
+    //mySingleton *singleton      = [mySingleton sharedSingleton];
 
     //FEO2Txt.text                =   [NSString stringWithFormat:@"%.2Lf",singleton.feo2]             ;
 
@@ -53,7 +53,7 @@ setTranslatesAutoresizingMaskIntoConstraints:NO;
 
 -(void)viewDidDisappear:(BOOL)animated{
     // set up link to singleton, save on exit
-    mySingleton *singleton      =  [mySingleton sharedSingleton];
+    //mySingleton *singleton      =  [mySingleton sharedSingleton];
 
     //singleton.feo2              =  [FEO2Txt.text doubleValue];
 
@@ -64,9 +64,9 @@ setTranslatesAutoresizingMaskIntoConstraints:NO;
 - (void)pressureChanged:(UISwitch *)switchState
 {
     // needs work to ensure both readings are put in correctly
-    long double pressure;
+    //long double pressure;
 
-    mySingleton *singleton = [mySingleton sharedSingleton];
+    //mySingleton *singleton = [mySingleton sharedSingleton];
 
     if ([switchState isOn]) {
         //switch is on = mmHg
